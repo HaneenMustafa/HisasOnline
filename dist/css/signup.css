@@ -1,0 +1,222 @@
+body {
+  
+    font-family: 'DroidArabicKufiRegular';
+    font-weight: normal;
+    font-style: normal; 
+    margin: 0;
+    padding: 0;
+  }
+  #signup-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'DroidArabicKufiRegular';
+    max-width: 100%;
+  }  
+.container{
+  max-width:100%;
+}
+.card2 {
+    width: 450px;
+   height: 770px;
+  background: #fff;
+  filter: drop-shadow(0px 6px 22px #f2f2f2);
+   margin: auto;
+   padding-top: 70 px;
+   border-radius: 15px;
+   box-sizing: border-box;
+   max-width:100%;
+  
+}
+.card3 {
+  width: 450px;
+ height: 735px;
+background: #fff;
+filter: drop-shadow(0px 6px 22px #f2f2f2);
+ margin: auto;
+ padding-top: 70 px;
+ border-radius: 15px;
+ box-sizing: border-box;
+ max-width:100%;
+
+}
+
+.info{
+display: flex;
+flex-direction: row;
+   justify-content:space-between;
+   font-weight: normal;
+    margin:0px;
+    padding:0;
+    padding-right:40px;
+    padding-left:85px;
+    
+}
+.info ul{
+  width:100%;
+  padding:0 ;
+  margin:0;
+}
+
+.basic-info{
+  width: 100%;
+height: 20px;
+font-family: "Droid Arabic Kufi";
+font-weight: bold;
+font-size: 12px;
+text-align: right;
+color: #1f1f1f;
+max-width:100%;
+
+}
+.conf{
+  width: 100%;
+height: 20px;
+font-family: "Droid Arabic Kufi";
+font-weight: normal;
+font-size: 12px;
+text-align: left;
+color: #cecece;
+margin-left:20
+
+}
+.conf2{
+  width: 100%;
+  height: 20px;
+  font-family: "Droid Arabic Kufi";
+  font-weight: bold;
+  font-size: 12px;
+  color: #1f1f1f;
+  text-align: left;
+  max-width:100%;
+  margin-left:20
+}
+.lines2{
+  display:flex;
+  justify-content:center;
+  flex-direction:row;
+ align-items: center;
+ margin: 4px;
+ max-width: 100%;
+}
+.gray-line{
+  width:220px;
+height: 0px;
+background: transparent;
+border: 1px solid #f2f2f2;
+padding-left:30px;
+margin-left :37px;
+max-width: 100%;
+}
+.orange{
+  width: 200px;
+height: 0px;
+background: transparent;
+border: 2px solid #f57c00;
+padding-right:30px;
+margin-right :28px;
+max-width: 100%;
+}
+.orange-line2{
+  width: 350px;
+height: 0px;
+background: transparent;
+border: 2px solid #f57c00;
+padding-right:30px;
+margin-right :28px;
+max-width: 100%;
+
+}
+.form-info{
+  max-width: 100%;
+}
+.form-group2{
+  
+  max-width:100%;
+  height: 85px;
+  width:100%
+  /* padding-bottom: 2px; */
+}
+.form-group2 select{
+ 
+  width: 405px;
+  height: 40px;
+  background: #f2f2f2;
+  border-radius: 15px;
+  padding-right: 15px;
+ appearance: none;
+  margin: 10px;
+  margin-right: 20px;
+  border: none;
+font-weight: normal;
+font-size: 12px;
+text-align: right;
+color: #707070;
+max-width: 100%;
+cursor: pointer;
+
+
+}
+.form-group2 label{
+  display: block;
+font-weight: normal;
+font-size: 11px;
+text-align: right;
+color: #1f1f1f;
+padding-right: 27px;
+padding-top: 4px;
+max-width: 100%;
+
+}
+
+
+.form-group2 label{
+  padding-top: 2px;
+}
+
+.btn3{
+  width:400px;
+  height: 42px;
+  border-radius: 12px;
+  padding-right: 15px;
+  margin: 12px;
+  border: none;
+  background: #d7d9ee;
+ font-weight: bold;
+ font-size: 14px;
+ color: #303f9f;
+ margin-top: 25px;
+ max-width:100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+ 
+ .btn3:hover{
+
+  background-color: #303f9f;
+  color: #f2f2f2;
+}
+.terms{
+  width: 100%;
+height: 20px;
+font-family: "Droid Arabic Kufi";
+font-weight: normal;
+font-size: 10px;
+text-align: right;
+color: #1f1f1f;
+padding-right: 25px;
+max-width: 100%;
+margin: 0;
+margin-bottom: 15px;
+}
+.terms p {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.terms span{
+  color:  #f57c00;;
+}

@@ -1,0 +1,280 @@
+#auth-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'DroidArabicKufiRegular';
+  max-width: 100%;
+}
+.container{
+padding-top: 50px;
+max-width: 100%;
+box-sizing: border-box;
+}
+body {
+  
+  font-family: 'DroidArabicKufiRegular';
+  font-weight: normal;
+  font-style: normal; 
+  margin: 0;
+  padding: 0;
+}
+
+  .card {
+    width: 450px;
+   height: 600px;
+   background: #fff;
+   filter: drop-shadow(0px 6px 22px #f2f2f2);
+   margin: auto;
+   padding-top: 70 px;
+   border-radius: 15px;
+   box-sizing: border-box;
+   max-width: 100%;
+   
+
+   }
+   h3 {
+    font-family: "Droid Arabic Kufi";
+    font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding : 5px;
+   }
+   
+   .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-top:30px;
+   }
+   .content{
+     display: flex;
+    align-items: center; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+   }
+  .btn {
+   width: 190px;
+   height: 40px;
+   background: transparent;
+  border: 1px solid #88a4b8;
+   font-family: "Droid Arabic Kufi";
+    font-weight: normal;
+   
+   text-align: center;
+   color: #1f1f1f;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 15px;
+    margin:8px;
+    max-width: 100%;
+  }
+  
+   .btn_icon2 {
+    display: inline-flex;
+   padding: 10px;
+   width: 2 px;
+   height: 15 px;
+   justify-content: center;
+  }
+
+ .btn_icon {
+  
+   padding: 12px;
+   width:20px;
+   height: 20px;
+   display: inline-flex;
+   justify-content: center;
+
+
+
+ }
+ .btn_text{
+   
+   font-family: "Droid Arabic Kufi";
+   font-weight: normal;
+   font-size: 14px;
+   color: #1f1f1f;
+   text-align: center;
+   
+
+   
+ }
+  
+ .line1 {
+ 
+   text-align:right;
+   margin-right:27px ;
+   width: 170px;
+   height: 0px;
+  background: transparent;
+  display: flex;
+
+ }
+ .line2 {
+  
+   text-align:left;
+   margin-left: 35px;
+   background: transparent;
+  width: 170px;
+   height: 0px;
+  display: flex;
+  
+ }
+ .lines {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: normal;
+  font-size: 12px;
+  text-align:center;
+ color: #8d8d8d;
+ margin-top: 4px;
+ background: transparent;
+
+
+ }
+ .form-info{
+  max-width: 100%;
+ }
+ .text{
+  font-weight: normal;
+  font-size: 12px;
+  text-align:center;
+  color: color;
+ }
+
+ .bottom{
+   display: flex;
+   justify-content: center;
+   margin-right: 20px;
+   margin-left: 30px;
+   font-size: 10px;
+   color: #1f1f1f;
+   width: 100%;
+   margin-top: 5px;
+  
+ }
+ 
+ .forget{
+   text-decoration: none;
+   color: #1f1f1f;
+   margin-left: 30px;
+   margin-right:215px;
+  
+ }
+ 
+ .checkbox{
+  
+   width: 14px;
+height: 14px;
+border-radius: 2px;
+
+ }
+  
+.footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+align-items: center;
+max-width:100%;
+}
+.btn2{
+ width:390px;
+ height: 40px;
+ border-radius: 15px;
+ padding-right: 15px;
+ margin: 10px;
+ border: none;
+ background: #d7d9ee;
+font-weight: bold;
+font-size: 14px;
+text-align: center;
+color: #303f9f;
+margin-top: 25px;
+max-width:100%;
+
+}
+
+.btn2:hover {
+
+  background-color: #303f9f;
+  color: #f2f2f2;
+}
+
+.footer-text{
+   width: 100%;
+height: 25px;
+font-weight: normal;
+font-size: 10px;
+margin-top: 2px;
+text-align: center;
+
+}
+.create{
+ 
+color: #f57c00;
+text-decoration: none;
+}
+.page-footer {
+  width: 100%;
+height: 32px;
+font-family: "Droid Arabic Kufi";
+font-weight: normal;
+font-size: 12px;
+color: #1f1f1f;
+display: flex;
+flex-direction: row;
+ justify-content:space-between;
+ max-width: 100%;
+ margin-left: 80px;
+ margin-right: 40px;
+}
+.checkbox-1 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  bottom: 142px;
+  
+ right: 25px; ;
+  height: 14px;
+  width: 14px;
+  background-color: #eee;
+}
+.checkbox-1 input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+.checkbox-1 .checkmark:after {
+  left: 4px;
+  bottom: 5px;
+  width: 2px;
+  height: 5px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
